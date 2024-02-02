@@ -167,6 +167,7 @@ p{
 .lightblue{
     background-color: rgba(142,161,225,255);
     color: white;
+    padding: 5px;
 }
 .image66_text33{
      background-color:rgba(255,255,255,255);
@@ -188,6 +189,10 @@ p{
     background-position: center;
     background-repeat: no-repeat;
 }
+.lightblue-text{
+    color: rgba(142,161,225,255);
+}
+
 
 .col-40{
     border: 2px dotted black;
@@ -195,34 +200,32 @@ p{
     min-height: 300px;
 }
 
-.darkgrey-main{
-    padding: 10px;
-    background-color: rgb(31, 30, 30);
+.bottom-main{
+    background-color: rgba(35,39,42,255);
+}
+.bottom-list{
+    color: white;
+}
+.bottom-menu{
+    display: flex;
+    align-items:flex-start
+}
+h3.lightblue-text{
+    padding: 0;
 }
 
-.col-16{
-    border:2px dotted white;
-    background-color:rgb(12, 169, 169);
-    min-height: 350px;
-}
-
-.darkgrey-main .row{
-    border: 2px dotted black;
-}
-.footer{
-    padding: 10px;
-    background-color: rgb(31, 30, 30);
-    border-top: 2px solid white;
-}
 .footer .row{
     background-color: aquamarine;
     justify-content: space-between;
     min-height: 50px;
     align-items: center;
 }
-#logo-bottom,
-#bottone-bottom{
-    border: 2px dotted black;
-    background-color: rgb(241, 160, 151);
-    padding: 2px;
+.italian-flag{
+    height: 20px;
+    color: white;
+    margin: 5px 0;
+}
+.social{
+    display: flex;
+    gap: 5px;
 }
