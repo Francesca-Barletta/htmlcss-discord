@@ -94,7 +94,7 @@ body{
   
 }
 .button{
-    padding:10px;
+    padding:12px;
     border-radius: 20px;
     border: none;
     font-family: 'Roboto', sans-serif;
@@ -163,11 +163,12 @@ p{
 .dark{
     background-color: rgb(1, 1, 21);
     color: white;
+    padding: 12px;
 }
 .lightblue{
     background-color: rgba(142,161,225,255);
     color: white;
-    padding: 5px;
+    padding: 12px;
 }
 .image66_text33{
      background-color:rgba(255,255,255,255);
@@ -192,15 +193,13 @@ p{
 .lightblue-text{
     color: rgba(142,161,225,255);
 }
-
-
 .col-40{
     border: 2px dotted black;
     background-color: rgb(240, 162, 236);
     min-height: 300px;
 }
 
-.bottom-main{
+footer{
     background-color: rgba(35,39,42,255);
 }
 .bottom-list{
@@ -208,17 +207,13 @@ p{
 }
 .bottom-menu{
     display: flex;
-    align-items:flex-start
+    align-items:flex-start;
 }
 h3.lightblue-text{
     padding: 0;
 }
-
-.footer .row{
-    background-color: aquamarine;
-    justify-content: space-between;
-    min-height: 50px;
-    align-items: center;
+.footer-list .container{
+    border-bottom: 1px solid rgba(142,161,225,255);
 }
 .italian-flag{
     height: 20px;
@@ -228,4 +223,7 @@ h3.lightblue-text{
 .social{
     display: flex;
     gap: 5px;
+}
+.footer-nav{
+    justify-content: space-between;
 }
