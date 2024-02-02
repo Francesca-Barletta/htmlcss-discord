@@ -77,30 +77,32 @@ a{
     min-height: 30px;
 }
 /*stili*/
-.nav .row{
-  justify-content: space-between;
-  border: none;
-  
+body{
+    font-family: 'Roboto', sans-serif;
 }
-#header-link{
-    text-align: center;
-}
-#header-login{
-    text-align: end;
-}
-
+/*header*/
 .page-header{
     padding: 5px;
-    background-color: rgb(179, 233, 233);
+    background-color: rgba(49,97,224,255);
 }
-#header-logo,
-#header-link,
-#header-login{
-    border: 2px dotted black;
-    background-color:rgb(215, 171, 59);
-    padding-top:5px;
-    padding-bottom: 5px;
+.nav .row{
+  justify-content: space-between;
+  border: none; 
+  
 }
+.nav .button{
+    padding:10px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+.button .white{
+    background-color: white;
+}
+.nav{
+    color: white;
+}
+/*page-main*/
 .navy-main .row{
     border:none;
     padding:none;
