@@ -24,6 +24,7 @@ a{
 .container{
     max-width: 900px;
     margin: 0 auto;
+    padding: 20px;
 }
 .row{
     display:flex;
@@ -98,8 +99,9 @@ body{
     border: none;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    margin: 10px;
 }
-.button .white{
+.white{
     background-color: white;
 }
 .nav{
@@ -127,7 +129,7 @@ body{
 .col-80{
    text-align: center;
 }
- h1{
+h1{
     font-weight: 700;
     color: white;
     font-size: 55px;
@@ -139,15 +141,19 @@ h2{
     font-size: 40px;
     padding: 10px;
 }
+h3{
+    font-weight: 700;
+    color:rgb(1, 1, 21);
+    font-size: 30px;
+    padding: 10px;
+}
 p{
     color: white;
     font-size: 15px;
-    padding: 15px;
 }
 .p-dark{
     color: rgb(1, 1, 21);
     font-size: 20px;
-    padding: 20px;
 } 
 .download-software{
     display: flex;
@@ -158,13 +164,15 @@ p{
     background-color: rgb(1, 1, 21);
     color: white;
 }
-
+.lightblue{
+    background-color: rgba(142,161,225,255);
+    color: white;
+}
 .image66_text33{
      background-color:rgba(255,255,255,255);
 }
-.image33_text66{
+.image33_text66, .call-example{
  background-color: rgba(246,246,246,255);
-
 }
 .voice-connect{
     flex-direction: row-reverse;
@@ -172,9 +180,13 @@ p{
 .container .row{
     align-items: center;
 }
-.lightgray-main{
-    padding: 10px;
-    background-color: lightgrey;
+.call-example .row{
+ text-align: center;
+}
+.start-adventure{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .col-40{
@@ -183,11 +195,6 @@ p{
     min-height: 300px;
 }
 
-.col-100{
-    border: 2px dotted black;
-    background-color: green;
-    min-height: 500px;
-}
 .darkgrey-main{
     padding: 10px;
     background-color: rgb(31, 30, 30);
