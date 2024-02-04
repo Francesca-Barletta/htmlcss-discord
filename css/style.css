@@ -179,7 +179,9 @@ p{
     background-color:rgba(255,255,255,255);
 }
 .image33_text66, .call-example{
- background-color: rgba(246,246,246,255);
+ background-color: rgba(0,0,0,0.1);
+ border: 0;
+ margin: 0;
 }
 .voice-connect{
     flex-direction: row-reverse;
@@ -234,4 +236,18 @@ h3.lightblue-text{
 }
 .container-bt{
     padding: 20px 0;
+}
+.up-wave{
+    min-height: 100px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) )
+                      ,url("../img/wave.svg");
+    border: 0;
+    margin: 0; 
+}
+.down-wave{
+    min-height: 100px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) )
+                      ,url("../img/wave.svg");
+    background-size: cover ;
+    transform: rotate(180deg);
 }
